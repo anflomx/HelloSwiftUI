@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E19A5BA02B677E9E006A40A6 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A5B9F2B677E9E006A40A6 /* HikeView.swift */; };
+		E19A5BA22B6785DA006A40A6 /* LightBulbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A5BA12B6785DA006A40A6 /* LightBulbView.swift */; };
+		E19A5BA42B6786FB006A40A6 /* LightBulbMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A5BA32B6786FB006A40A6 /* LightBulbMain.swift */; };
+		E19A5BA92B678C42006A40A6 /* LightRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A5BA82B678C42006A40A6 /* LightRoomView.swift */; };
+		E1BBB5922B6628B6000963B5 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBB5912B6628B6000963B5 /* Hike.swift */; };
+		E1BBB5982B6634B2000963B5 /* HikeDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBB5972B6634B2000963B5 /* HikeDetailScreen.swift */; };
 		E1BE70C42B6387B500B62271 /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE70C32B6387B500B62271 /* HelloSwiftUIApp.swift */; };
 		E1BE70C62B6387B500B62271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE70C52B6387B500B62271 /* ContentView.swift */; };
 		E1BE70C82B6387B900B62271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BE70C72B6387B900B62271 /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E19A5B9F2B677E9E006A40A6 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		E19A5BA12B6785DA006A40A6 /* LightBulbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightBulbView.swift; sourceTree = "<group>"; };
+		E19A5BA32B6786FB006A40A6 /* LightBulbMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightBulbMain.swift; sourceTree = "<group>"; };
+		E19A5BA82B678C42006A40A6 /* LightRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightRoomView.swift; sourceTree = "<group>"; };
+		E1BBB5912B6628B6000963B5 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		E1BBB5972B6634B2000963B5 /* HikeDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailScreen.swift; sourceTree = "<group>"; };
 		E1BE70C02B6387B500B62271 /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BE70C32B6387B500B62271 /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		E1BE70C52B6387B500B62271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +83,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E19A5BA52B678947006A40A6 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				E19A5BA72B678979006A40A6 /* LightBulb */,
+				E19A5BA62B678951006A40A6 /* Hike */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		E19A5BA62B678951006A40A6 /* Hike */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBB5902B66289B000963B5 /* Models */,
+				E19A5B9F2B677E9E006A40A6 /* HikeView.swift */,
+				E1BBB5972B6634B2000963B5 /* HikeDetailScreen.swift */,
+			);
+			path = Hike;
+			sourceTree = "<group>";
+		};
+		E19A5BA72B678979006A40A6 /* LightBulb */ = {
+			isa = PBXGroup;
+			children = (
+				E19A5BA32B6786FB006A40A6 /* LightBulbMain.swift */,
+				E19A5BA12B6785DA006A40A6 /* LightBulbView.swift */,
+				E19A5BA82B678C42006A40A6 /* LightRoomView.swift */,
+			);
+			path = LightBulb;
+			sourceTree = "<group>";
+		};
+		E1BBB5902B66289B000963B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBB5912B6628B6000963B5 /* Hike.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E1BE70B72B6387B500B62271 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +143,7 @@
 		E1BE70C22B6387B500B62271 /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E19A5BA52B678947006A40A6 /* Examples */,
 				E1BE70C32B6387B500B62271 /* HelloSwiftUIApp.swift */,
 				E1BE70C52B6387B500B62271 /* ContentView.swift */,
 				E1BE70C72B6387B900B62271 /* Assets.xcassets */,
@@ -257,7 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BBB5922B6628B6000963B5 /* Hike.swift in Sources */,
+				E1BBB5982B6634B2000963B5 /* HikeDetailScreen.swift in Sources */,
+				E19A5BA22B6785DA006A40A6 /* LightBulbView.swift in Sources */,
 				E1BE70C62B6387B500B62271 /* ContentView.swift in Sources */,
+				E19A5BA42B6786FB006A40A6 /* LightBulbMain.swift in Sources */,
+				E19A5BA02B677E9E006A40A6 /* HikeView.swift in Sources */,
+				E19A5BA92B678C42006A40A6 /* LightRoomView.swift in Sources */,
 				E1BE70C42B6387B500B62271 /* HelloSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
